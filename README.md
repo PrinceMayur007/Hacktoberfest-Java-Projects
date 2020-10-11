@@ -20,10 +20,10 @@
 <h4>How to contribute?</h4>
 
 
-1. [Fork](https://github.com/Developer-Students-Clubs-MESCOE/HacktoberFest-AI-ML) this repository.
+1. [Fork](https://github.com/Developer-Students-Clubs-MESCOE/Hacktoberfest-Java-Projects) this repository.
 2. Clone the forked repository to your computer.
 
-   `https://github.com/Developer-Students-Clubs-MESCOE/HacktoberFest-AI-ML.git`
+   `https://github.com/Developer-Students-Clubs-MESCOE/Hacktoberfest-Java-Projects.git`
 
 3. Create folder from language you are going to contribute (Ex:.py/.r/.java)
 4. Add your code inside it
