@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<!--Put cursor on Vbox and press Alt+Ctrl+L to wrap text. Now to add Controller class to this fxml file we have to do
+ Add fully qualified class name i.e. fx:controller="com.exploreandshare.test.MyController" to rootnode-->
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="293.0" prefWidth="305.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.exploreandshare.test.MyController">
+    <Pane prefHeight="200.0" prefWidth="200.0">
+        <Label fx:id="welcomeLabel" alignment="CENTER" layoutX="116.0" layoutY="30.0" text="Welcome">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Label>
+        <ChoiceBox fx:id="choiceBox" layoutX="37.0" layoutY="71.0" prefHeight="29.0" prefWidth="224.0" />
+        <TextField fx:id="inputText" layoutX="37.0" layoutY="123.0" prefHeight="29.0" prefWidth="224.0" promptText="Enter Temperature" />
+        <Button fx:id="convertButton" alignment="CENTER" layoutX="93.0" layoutY="167.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="120.0" text="Covert" />
+    </Pane>
+</VBox>
